@@ -38,7 +38,7 @@ sleep 10
 
 7za x romfile.7z
 
-if [ -e romfile ]
+if [ -e rootfs ]
 then 
 echo "Initializing to Config"
 ./buildfile.sh
